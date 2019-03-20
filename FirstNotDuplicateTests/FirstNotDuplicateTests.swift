@@ -17,12 +17,26 @@ class FirstNotDuplicateTests: XCTestCase {
     //Given input "cd", retrieves c
     func testSuccessfulFind() {
         
+        let output1 = first_non_duplicate(abcdcd)
+        let output2 = first_non_duplicate(cbcd)
+        let output3 = first_non_duplicate(a)
+        let output4 = first_non_duplicate(cd)
+        
+        XCTAssert(output1 == "a")
+        XCTAssert(output2 == "b")
+        XCTAssert(output3 == "a")
+        XCTAssert(output4 == "c")
     }
     
     //Given input "aaaa", retrieves 0
     //Given input "cdcd", retrieves 0
     func testSuccessfulNotFind() {
         
+        let output1 = first_non_duplicate(aaaa)
+        let output2 = first_non_duplicate(cdcd)
+        
+        XCTAssert(output1 == "0")
+        XCTAssert(output2 == "0")
     }
     
     //Given input "b1", retrieves nil
@@ -30,5 +44,12 @@ class FirstNotDuplicateTests: XCTestCase {
     //Given input "1", retrieves nil
     func testFailure() {
         
+        let output1 = first_non_duplicate(b1)
+        let output2 = first_non_duplicate(special)
+        let output3 = first_non_duplicate(one)
+
+        XCTAssert(output1 == nil)
+        XCTAssert(output2 == nil)
+        XCTAssert(output3 == nil)
     }
 }
