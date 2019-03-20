@@ -17,6 +17,7 @@ Tests are written using default Xcode test suite.
 ## Built With
 
 * [Xcode, Version 10.1 (10B61)](https://developer.apple.com/xcode/)
+* [Swift, 4.2](https://swift.org/)
 
 ## Versioning
 
