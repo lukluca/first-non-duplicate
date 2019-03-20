@@ -8,7 +8,7 @@
 
 import Foundation
 
-private let regex = try! NSRegularExpression(pattern: "^[a-z]$")
+private let regex = try! NSRegularExpression(pattern: "^[a-z]*$")
 
 extension String {
     
