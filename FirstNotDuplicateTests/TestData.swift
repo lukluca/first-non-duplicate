@@ -20,3 +20,7 @@ let one = "1"
 let ABCDCD = "ABCDCD"
 let CD = "CD"
 
+let empty = ""
+
+let oneSpace = " "
+

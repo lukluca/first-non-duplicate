@@ -14,6 +14,11 @@ extension String {
     
     var isValidInput: Bool {
         get {
+            
+            guard !self.isEmpty else {
+                return false
+            }
+            
             let range = NSRange(location: 0, length: self.count)
             return regex.firstMatch(in: self, options: [], range: range) != nil
         }
