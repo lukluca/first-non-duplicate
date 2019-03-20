@@ -17,4 +17,6 @@ let a = "a"
 let b1 = "b1"
 let special = "*"
 let one = "1"
+let ABCDCD = "ABCDCD"
+let CD = "CD"
 

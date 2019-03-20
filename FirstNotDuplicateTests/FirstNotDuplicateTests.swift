@@ -42,14 +42,20 @@ class FirstNotDuplicateTests: XCTestCase {
     //Given input "b1", retrieves nil
     //Given input "*", retrieves nil
     //Given input "1", retrieves nil
+    //Given input "ABCDCD", retrieves nil
+    //Given input "CD", retrieves nil
     func testFailure() {
         
         let output1 = first_non_duplicate(b1)
         let output2 = first_non_duplicate(special)
         let output3 = first_non_duplicate(one)
+        let output4 = first_non_duplicate(ABCDCD)
+        let output5 = first_non_duplicate(CD)
 
         XCTAssert(output1 == nil)
         XCTAssert(output2 == nil)
         XCTAssert(output3 == nil)
+        XCTAssert(output4 == nil)
+        XCTAssert(output5 == nil)
     }
 }

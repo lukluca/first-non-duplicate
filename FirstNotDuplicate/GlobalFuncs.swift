@@ -8,11 +8,13 @@
 
 import Foundation
 
-func first_non_duplicate(_ input: String) -> String?{
+func first_non_duplicate(_ input: String) -> String? {
     
     guard input.isValidInput else {
         return nil
     }
+    
+    
     
     return ""
 }
