@@ -11,24 +11,24 @@ import XCTest
 
 class FirstNotDuplicateTests: XCTestCase {
 
-    override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    //Given input "abcdcd", retrieves a
+    //Given input "cbcd", retrieves b
+    //Given input "a", retrieves a
+    //Given input "cd", retrieves c
+    func testSuccessfulFind() {
+        
     }
-
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    
+    //Given input "aaaa", retrieves 0
+    //Given input "cdcd", retrieves 0
+    func testSuccessfulNotFind() {
+        
     }
-
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
+    //Given input "b1", retrieves nil
+    //Given input "*", retrieves nil
+    //Given input "1", retrieves nil
+    func testFailure() {
+        
     }
-
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-
 }
