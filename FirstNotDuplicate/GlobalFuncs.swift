@@ -9,5 +9,10 @@
 import Foundation
 
 func first_non_duplicate(_ input: String) -> String?{
-    return nil
+    
+    guard input.isValidInput else {
+        return nil
+    }
+    
+    return ""
 }

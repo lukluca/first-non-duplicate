@@ -15,6 +15,7 @@
 		439692222242436B00F6D310 /* FirstNotDuplicateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439692212242436B00F6D310 /* FirstNotDuplicateTests.swift */; };
 		4396922D2242E2AF00F6D310 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4396922C2242E2AF00F6D310 /* TestData.swift */; };
 		4396922F2242E53C00F6D310 /* GlobalFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4396922E2242E53C00F6D310 /* GlobalFuncs.swift */; };
+		439692312242E88B00F6D310 /* String+ValidInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439692302242E88B00F6D310 /* String+ValidInput.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		439692232242436B00F6D310 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4396922C2242E2AF00F6D310 /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
 		4396922E2242E53C00F6D310 /* GlobalFuncs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalFuncs.swift; sourceTree = "<group>"; };
+		439692302242E88B00F6D310 /* String+ValidInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+ValidInput.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		4396920B2242436A00F6D310 /* FirstNotDuplicate */ = {
 			isa = PBXGroup;
 			children = (
+				439692302242E88B00F6D310 /* String+ValidInput.swift */,
 				4396920C2242436A00F6D310 /* AppDelegate.swift */,
 				4396920E2242436A00F6D310 /* ViewController.swift */,
 				439692102242436A00F6D310 /* Main.storyboard */,
@@ -203,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				439692312242E88B00F6D310 /* String+ValidInput.swift in Sources */,
 				4396920F2242436A00F6D310 /* ViewController.swift in Sources */,
 				4396920D2242436A00F6D310 /* AppDelegate.swift in Sources */,
 				4396922F2242E53C00F6D310 /* GlobalFuncs.swift in Sources */,
